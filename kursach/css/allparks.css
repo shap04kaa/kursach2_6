@@ -1,0 +1,29 @@
+.navbar-nav .nav-item .nav-link:hover {
+    color:  rgb(200, 200, 200) !important; /* Изменение цвета при наведении */
+}
+
+tbody tr {
+    transition: background-color 0.3s ease; /* Плавный переход цвета в течение 0.3 секунды с эффектом "ease" */
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5; /* Цвет фона при наведении */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Это обеспечивает, чтобы flex-контейнер занимал весь видимый экран */
+}
+
+main {
+    flex: 1; /* Это заставляет основной контент занимать все доступное пространство */
+}
+
+footer {
+    margin-top: auto; /* Это заставляет футер быть внизу, даже если контент небольшой или отсутствует */
+}
+
+tbody tr:hover {
+    background-color: #dfdfdf; /* Измените цвет на тот, который вам нравится */
+}

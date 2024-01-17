@@ -1,0 +1,42 @@
+.navbar-nav .nav-item .nav-link:hover {
+    color:  rgb(200, 200, 200) !important; /* Изменение цвета при наведении */
+}
+
+.map {
+	width: 1000px;
+	height: 550px;
+	background-color: #202020;
+    border-radius: 7px;
+    padding: 0.5%;
+    margin: 0 auto; /* Устанавливаем автоматичесные отступы по бокам */
+    display: block; /* По умолчанию у блочных элементов */
+    margin-bottom: 0%;
+}
+
+[class*="copyrights-pane"] {
+	display: none !important;
+}
+
+#left_text, #middle_text, #right_text{
+  float:left;
+  color: #728461;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+#middle_text {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.container1 {
+    max-width: 900px; /* Любое значение ширины, которое вам нужно */
+    margin: 0 auto; /* Центрирование на странице */
+    margin-bottom: 40px;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+}
+
